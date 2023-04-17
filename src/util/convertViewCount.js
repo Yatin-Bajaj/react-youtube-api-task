@@ -7,4 +7,4 @@ function convertViewsCount(views = 0) {
     }
     return views;
 }
-export default convertViewsCount
+export default convertViewsCount;

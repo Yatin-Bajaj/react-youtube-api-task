@@ -3,4 +3,4 @@ function convertDateFormat(currentDate = new Date()) {
     return new Date(currentDate).toLocaleDateString("en-US", options);
 }
 
-export default convertDateFormat
+export default convertDateFormat;

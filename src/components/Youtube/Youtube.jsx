@@ -23,6 +23,7 @@ class Youtube extends Component {
             };
         });
     }
+
     async componentDidMount() {
         this.setState((prevState) => {
             return {
@@ -44,6 +45,7 @@ class Youtube extends Component {
             this.getYoutubeData(this.props.searchQuery);
         }
     }
+
     render() {
         return (
             <div className={classes["card_container"]}>
